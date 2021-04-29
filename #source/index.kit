@@ -1,0 +1,746 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->	
+<html lang="ru">
+<!--Заголовок страницы, контейнер для других важных задач (не отображается)-->
+<head>
+	<!-- Заголовок страницы в браузере-->
+	<title>Главная</title>
+	<!--Кодировка страницы-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<!--Отображаемое тело страницы-->
+<body>
+	<div class="wrapper">
+
+
+		<!-- @import "header.html" -->
+
+
+		<main class="main">
+			<div class="container">
+				<aside class="aside">
+					<div class="aside__body">
+						<div class="aside__close">
+							<span></span>
+							<span></span>
+						</div>
+						<ul class="aside__list">
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Одежда / Обувь
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Животным
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Дом / Уют
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Здоровье / Уход
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Техника / 
+									Электроника
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Авто / Мото
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Сад / Огород
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Хобби / Отдых
+								</button>
+							</a>
+							</li>
+							<li class="aside__list-item">
+								<a href="#">
+									<button class="aside__btn">
+									Строительство
+								</button>
+							</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+				<div class="content-page">
+					<div class="content__navigation">
+						<ul>
+							<li><a class="first" href="#">Главная</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Одежда / обувь</a></li>
+							<li><a href="#">платья и сарафаны</a></li>
+							<li><a href="#" class="content__navigation_active">Agenda / женский сарафан / лен</a></li>
+						</ul>
+					</div>
+					<div class="content-page__search search-content">
+						<div class="search-content__inner">
+							<input class="search-content__input" type="search" placeholder="Я ищу...">
+							<div class="search-content__category">
+								<span>Категории</span>
+							</div>
+							<div class="search-content__filter">
+								<span>Фильтр</span>
+							</div>
+							<div class="search-content__icon">
+								<img src="img/icons/search-white.svg" alt="Search">
+							</div>
+						</div>
+					</div>
+					<div class="catalog-navigation">
+						<ul class="catalog-navigation__list">
+							<li><a class="catalog-navigation__link" href="#">Agenda</a></li>
+							<li><a class="catalog-navigation__link" href="#">женский сарафан</a></li>
+							<li><a class="catalog-navigation__link" href="#">лен</a></li>
+						</ul>
+					</div>
+					<div class="content-page__product product-content">
+						<div class="product-content__head">
+							<ul class="product-content__list">
+								<li>Артикул</li>
+								<li>12918341</li>
+							</ul>
+							<ul class="product-content__list_reviews">
+								<li><img src="img/star.png" alt="рейтинг"></li>
+								<li><img src="img/star.png" alt="рейтинг"></li>
+								<li><img src="img/star.png" alt="рейтинг"></li>
+								<li><img src="img/star-transparent.png" alt="рейтинг"></li>
+								<li>80 отзывов</li>
+							</ul>
+						</div>
+						<div class="product-content__card-inner">
+							<div class="product-content__info info-product">
+								<div class="info-product__price">
+									<p>5500 ₽</p>
+								</div>
+								<div class="info-product__specifications">
+									<p>Ткань:<span>лён</span></p>
+									<div class="info-product__color-specifications">
+										<p>Цвет:</p> 
+										<span>коричневый, коричнево серый, бежевый</span>
+									</div>
+								</div>
+								<div class="info-product__images">
+									<div class="info-product__image one">
+										<img src="img/info-3.png" alt="Фото 3">
+									</div>
+									<div class="info-product__image two">
+										<img src="img/info-2.png" alt="Фото 2">
+									</div>
+									<div class="info-product__image three">
+										<img src="img/info-1.png" alt="Фото 1">
+									</div>
+								</div>
+								<div class="info-product__size">
+									<label for="">Таблица размеров</label>
+									<ul class="size__list">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+									</ul>
+								</div>
+								<div class="info-product__add">
+									<button class="info-product__button">
+										Добавить в корзину
+									</button>
+									<span><img src="img/heart.png" alt="Heart"></span>
+								</div>
+								<button class="info-product__buy btn">
+									Купить
+								</button>
+								<div class="info-product__marketing">
+									<img src="img/marketing.jpg" alt="Marketing">
+								</div>
+							</div>
+							<div class="product-content__images">
+								<div class="vertical">
+									<div class="vertical__items">
+										<div class="vertical__big-item">
+											<div class="vertical__big-slider">
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+												<div class="vertical__big-img">
+													<img src="img/vertical-big-1.jpg" alt="Большая картинка">
+												</div>
+											</div>
+										</div>
+										<div class="vertical__wrapper">
+											<div class="imagesnew__dotted" style="transform: none !important;">
+												<div class="vertical__img">
+													<img src="img/vertical-small-1.png" alt="Мини картинка слайдера">
+												</div>
+												<div class="vertical__img">
+													<img src="img/vertical-small-2.png" alt="Мини картинка слайдера">
+												</div>
+												<div class="vertical__img">
+													<img src="img/vertical-small-3.png" alt="Мини картинка слайдера">
+												</div>
+												<div class="vertical__img">
+													<img src="img/vertical-small-1.png" alt="Мини картинка слайдера">
+												</div>
+												<div class="vertical__img">
+													<img src="img/vertical-small-2.png" alt="Мини картинка слайдера">
+												</div>
+												<div class="vertical__img">
+													<img src="img/vertical-small-3.png" alt="Мини картинка слайдера">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-page__description description">
+							<h3 class="description__title">Описание</h3>
+							<div class="description__text">
+								<p>
+									Сарафан Василина. Василина - льняной сарафан на бретелях! Отличный базовый компаньон для летних комплектаций. Вместе с трикотажными топами и льняными блузками смотрится превосходно. Модельные особенности: Силуэт трапеция Свободный объем Бретели пристегиваются на пуговицы Небольшие карманы на обтачке с двойной отстрочкой На спинке, на уровне талии резинка Юбка-макси со сборкой Рекомендации: Сарафаны в стиле бохо популярны среди творческих людей! Этот стиль умело сочетает в себе женственность и оригинальность образа в целом. В нем можно соединять совершенно непохожие друг на друга вещи, получая в итоге полноценный стильный лук.
+								</p>
+							</div>
+							<div class="detailed__description">
+								<ul class="detailed-list__name">
+									<li>
+										
+										<div class="dots">
+											<span>Вырез горловины</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Длина юбки\платья</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Материал подкладки</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Назначение</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Вид застежки</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Покрой</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Фактура материала</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Тип карманов</span>
+										</div>
+									</li>
+									<li>
+										<div class="dots">
+											<span>Уход за вещами</span>
+										</div>
+									</li>
+								</ul>
+								<ul class="detailed-list__value">
+									<li>На бретельках</li>
+									<li>Миди</li>
+									<li>Без подладки</li>
+									<li>Повсевдневная </li>
+									<li>Пуговицы</li>
+									<li>Свободный</li>
+									<li>Текстильный</li>
+									<li>В шве</li>
+									<li>Бережная стирка при 30 грудусах
+									отбеливания запрещено. Гладить</li>
+								</ul>
+							</div>
+							<div class="detailed__description_hidden one">
+								<div class="detailed-hidden__wrapper">
+									<div class="detailed__hidden-list">
+										<ul class="detailed-list__name">
+											<li>
+												<div class="dots">
+													<span>Вырез горловины</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Длина юбки\платья</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Материал подкладки</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Назначение</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Вид застежки</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Покрой</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Фактура материала</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Тип карманов</span>
+												</div>
+											</li>
+											<li>
+												<div class="dots">
+													<span>Уход за вещами</span>
+												</div>
+											</li>
+										</ul>
+										<ul class="detailed-list__value">
+											<li>На бретельках</li>
+											<li>Миди</li>
+											<li>Без подладки</li>
+											<li>Повсевдневная </li>
+											<li>Пуговицы</li>
+											<li>Свободный</li>
+											<li>Текстильный</li>
+											<li>В шве</li>
+											<li>Бережная стирка при 30 грудусах
+											отбеливания запрещено. Гладить</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="description__btn">
+								<p>Развернуть характеристики</p>
+							</div>
+						</div>
+						<div class="other-variants__product">
+							<h3 class="other-variants__title">
+								Варианты товара
+							</h3>
+							<div class="other-variants__items">
+								<div class="other-variants__container">
+									<div class="other-variants__body">
+										<div class="other-variants__item">
+											<div class="other-variants__image">
+												<img src="img/other-variants_1.png" alt="Картинка товара">
+											</div>
+											<div class="other-variants__content">
+												<div class="other-variants__content_head">
+													<p>Tantino / Сарафан  </p>
+													<p>3450₽</p>
+												</div>
+												<div class="other-variants__content_description">
+													<p>Женский сарафан</p>
+												</div>
+												<div class="other-variants__button">
+													<button>В корзину</button>
+												</div>
+											</div>
+										</div>
+										<div class="other-variants__item">
+											<div class="other-variants__image">
+												<img src="img/other-variants_2.png" alt="Картинка товара">
+											</div>
+											<div class="other-variants__content">
+												<div class="other-variants__content_head">
+													<p>DamKapriz </p>
+													<p>5000₽</p>
+												</div>
+												<div class="other-variants__content_description">
+													<p>Женский сарафан</p>
+												</div>
+												<div class="other-variants__button">
+													<button>В корзину</button>
+												</div>
+											</div>
+										</div>
+										<div class="other-variants__item">
+											<div class="other-variants__image">
+												<img src="img/other-variants_3.png" alt="Картинка товара">
+											</div>
+											<div class="other-variants__content">
+												<div class="other-variants__content_head">
+													<p>OZARA </p>
+													<p>2300₽</p>
+												</div>
+												<div class="other-variants__content_description">
+													<p>Женский сарафан</p>
+												</div>
+												<div class="other-variants__button">
+													<button>В корзину</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews questions">
+								<div class="container">
+									<h3 class="reviews__title">
+										Отзывы и вопросы
+									</h3>
+									<div class="reviews__content content-reviews">
+										<p class="content-reviews__quantity">
+											80 Отзывов
+										</p>
+										<div class="content-reviews__button">
+											<button>Написать отзыв</button>
+										</div>
+										<div class="content-reviews__sorting">
+											<ul class="sorting__list">
+												<li>Сортировать по:</li>
+												<li class="sorting__list-item">
+													<button class="sorting__list__button date">
+														<span>
+															Дате
+														</span>
+													</button>
+												</li>
+												<li class="sorting__list-item assessment">
+													<button class="sorting__list__button">
+														Оценке
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="content-reviews__info content-reviews__wrapper">
+										<div class="reviews-info__left">
+											<div class="reviews-info__inner">
+												<div class="reviews-info__image">
+													<img src="img/reviews-1.png" alt="Картинка пользователя">
+												</div>
+												<div class="reviews-info__body reviews-body">
+													<div class="reviews-body__head">
+														<ul class="reviews-body__list">
+															<li class="reviews-body__list-item date">
+																25 Февраля 2021 
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+														</ul>
+													</div>
+													<div class="reviews-body__profile">
+														<div class="profile-item">
+															<div class="profile-item__title">Пользователь</div>
+															<div class="profile-item__subtitle">
+																<ul class="profile-item__list">
+																	<li><span>Цвет товара:</span> бежевый</li>
+																	<li><span>Размер:</span> L</li>
+																	<li><span>Соответствие размеру:</span> Большемерит</li>
+																</ul>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Достоинства</div>
+															<div class="profile-item__subtitle">
+																<p>Простота кроя, микровельвет, качество швов </p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Недостатки</div>
+															<div class="profile-item__subtitle">
+																<p>Нет</p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Комментарии</div>
+															<div class="profile-item__subtitle">
+																<p>Размер в размер . Не яркий цвет поросячий, а слегка припыленный. Под футболку летом здорово. </p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__subtitle">
+																<ul class="profile-item__list hand">
+																	<li>
+																		<img src="img/handup.png" alt="handup">
+																		<span class="hand__number">0</span>
+																	</li>
+																	<li>
+																		<img src="img/handdown.png" alt="handdown">
+																		<span class="hand__number">0</span>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="reviews-info__inner double">
+												<div class="reviews-info__image">
+													<img src="img/reviews-1.png" alt="Картинка пользователя">
+												</div>
+												<div class="reviews-info__body reviews-body">
+													<div class="reviews-body__head">
+														<ul class="reviews-body__list">
+															<li class="reviews-body__list-item date">
+																15 Марта 2021 
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+															<li class="reviews-body__list-item star">
+																<img src="img/star.svg" alt="Звезда">
+															</li>
+														</ul>
+													</div>
+													<div class="reviews-body__profile">
+														<div class="profile-item">
+															<div class="profile-item__title">Пользователь</div>
+															<div class="profile-item__subtitle">
+																<ul class="profile-item__list">
+																	<li><span>Цвет товара:</span> коричневый</li>
+																	<li><span>Размер:</span> L</li>
+																	<li><span>Соответствие размеру:</span> Соответствует</li>
+																</ul>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Достоинства</div>
+															<div class="profile-item__subtitle">
+																<p>Мягкий, приятный на ощуп материал. Вельвет в мелкий рубчик. Слегка свободный размер, не маломерит. Хорошее качество.  </p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Недостатки</div>
+															<div class="profile-item__subtitle">
+																<p>Нет</p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__title">Комментарии</div>
+															<div class="profile-item__subtitle">
+																<p>Сарафан понравился, носить буду </p>
+															</div>
+														</div>
+														<div class="profile-item">
+															<div class="profile-item__subtitle">
+																<ul class="profile-item__list hand">
+																	<li>
+																		<img src="img/handup.png" alt="handup">
+																		<span class="hand__number">0</span>
+																	</li>
+																	<li>
+																		<img src="img/handdown.png" alt="handdown">
+																		<span class="hand__number">0</span>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="more__reviews">Показать больше отзывов</button>
+										</div>
+										<div class="reviews-info__right">
+											<div class="content-reviews__rating reviews-rating">
+												<div class="reviews-rating__head">
+													<ul class="reviews-rating__list">
+														<li>
+															<img src="img/star.svg" alt="Картинка звезды">
+														</li>
+														<li>
+															<img src="img/star.svg" alt="Картинка звезды">
+														</li>
+														<li>
+															<img src="img/star.svg" alt="Картинка звезды">
+														</li>
+														<li>
+															<img src="img/vector.png" alt="Картинка звезды">
+														</li>
+													</ul>
+													<div class="reviews-rating__numbers">
+														<span>4</span><span>5</span>
+													</div>
+												</div>
+												<div class="reviews-rating__progressbar progressbar">
+													<div class="progressbar__items">
+														<div class="progressbar__container">
+															<div class="progressbar__item">
+																<label>5 звезд</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_1"></div>
+																	</div>
+																</div>
+																<div class="progressbar__number">34</div>
+															</div>
+															<div class="progressbar__item">
+																<label >4 звезды</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_2"></div>
+																	</div>
+																</div>
+																<div class="progressbar__number">10</div>
+															</div>
+															<div class="progressbar__item">
+																<label >3 звезды</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_3"></div>
+																	</div>
+																</div>
+																<div class="progressbar__number">2</div>
+															</div>
+															<div class="progressbar__item">
+																<label >2 звезды</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_4"></div>
+																	</div>
+																</div>
+																<div class="progressbar__number">0</div>
+															</div>
+															<div class="progressbar__item">
+																<label >1 звезда</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_5"></div>
+																	</div>
+																</div>
+																<div class="progressbar__number">0</div>
+															</div>
+														</div>
+													</div>
+													<div class="progressbar__text">
+														<p>По оценке 21 покупателей</p>
+														<p>Соответствие размер</p>
+													</div>
+													<div class="progressbar__items">
+														<div class="progressbar__container">
+															<div class="progressbar__size-item">
+																<label for="">Большемерит</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_blue first"></div>
+																	</div>
+																</div>
+																<span class="progressbar__value">12%</span>
+															</div>
+															<div class="progressbar__size-item">
+																<label for="">Соответствует</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_blue second"></div>
+																	</div>
+																</div>
+																<span class="progressbar__value">80%</span>
+															</div>
+															<div class="progressbar__size-item">
+																<label for="">Маломерит</label>
+																<div class="progressbar__wrap">
+																	<div class="progressbar__line">
+																		<div class="progress-bar-fill progress-bar-fill_blue third"></div>
+																	</div>
+																</div>
+																<span class="progressbar__value">8%</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- @import "footer.html" -->
+
+
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/ed89a4511e.js" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
